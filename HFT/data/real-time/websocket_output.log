@@ -1,0 +1,74 @@
+2025-10-25 14:22:25,429 start
+2025-10-25 14:22:25,431 Connected to KDB+ ingest process on port 5006
+2025-10-25 14:22:25,431 connection setup
+--- request header ---
+2025-10-25 14:22:25,591 --- request header ---
+GET /v1?apikey=b5d2959568494b75bb73d7c173cffe82b2 HTTP/1.1
+Upgrade: websocket
+Host: ws.finazon.io
+Origin: https://ws.finazon.io
+Sec-WebSocket-Key: Qe9clGF+AX8lI+GOxhE94Q==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+
+
+2025-10-25 14:22:25,591 GET /v1?apikey=b5d2959568494b75bb73d7c173cffe82b2 HTTP/1.1
+Upgrade: websocket
+Host: ws.finazon.io
+Origin: https://ws.finazon.io
+Sec-WebSocket-Key: Qe9clGF+AX8lI+GOxhE94Q==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+
+
+-----------------------
+2025-10-25 14:22:25,591 -----------------------
+--- response header ---
+2025-10-25 14:22:25,591 --- response header ---
+HTTP/1.1 101 Switching Protocols
+2025-10-25 14:22:25,705 HTTP/1.1 101 Switching Protocols
+Date: Sat, 25 Oct 2025 21:22:25 GMT
+2025-10-25 14:22:25,706 Date: Sat, 25 Oct 2025 21:22:25 GMT
+Connection: upgrade
+2025-10-25 14:22:25,706 Connection: upgrade
+Upgrade: websocket
+2025-10-25 14:22:25,706 Upgrade: websocket
+Sec-WebSocket-Accept: aOjxizZ2G/XU/eyJUnF9HNbijO4=
+2025-10-25 14:22:25,706 Sec-WebSocket-Accept: aOjxizZ2G/XU/eyJUnF9HNbijO4=
+cf-cache-status: DYNAMIC
+2025-10-25 14:22:25,706 cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6zzWkRwxupDLCcX8iB9z1CFMXNdRqXnWb10gw%2BeM4Z2UR8GwXOv%2F7KCB%2BcNQziF0gu%2BTaRn7r0oBvHWt0ja9PTPUCw5taZaQw2Be7sznGBvPA6YaCy2T%2BTHFU6D3CoYs"}],"group":"cf-nel","max_age":604800}
+2025-10-25 14:22:25,707 Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6zzWkRwxupDLCcX8iB9z1CFMXNdRqXnWb10gw%2BeM4Z2UR8GwXOv%2F7KCB%2BcNQziF0gu%2BTaRn7r0oBvHWt0ja9PTPUCw5taZaQw2Be7sznGBvPA6YaCy2T%2BTHFU6D3CoYs"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2025-10-25 14:22:25,707 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+2025-10-25 14:22:25,707 Server: cloudflare
+CF-RAY: 9944c4ee4d189369-SEA
+2025-10-25 14:22:25,707 CF-RAY: 9944c4ee4d189369-SEA
+alt-svc: h3=":443"; ma=86400
+2025-10-25 14:22:25,707 alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=10852&min_rtt=10370&rtt_var=2623&sent=7&recv=10&lost=0&retrans=0&sent_bytes=3910&recv_bytes=1847&delivery_rate=367886&cwnd=252&unsent_bytes=0&cid=dfb2db6396e04abe&ts=121&x=0"
+2025-10-25 14:22:25,708 server-timing: cfL4;desc="?proto=TCP&rtt=10852&min_rtt=10370&rtt_var=2623&sent=7&recv=10&lost=0&retrans=0&sent_bytes=3910&recv_bytes=1847&delivery_rate=367886&cwnd=252&unsent_bytes=0&cid=dfb2db6396e04abe&ts=121&x=0"
+-----------------------
+2025-10-25 14:22:25,708 -----------------------
+Websocket connected
+2025-10-25 14:22:25,708 Websocket connected
+2025-10-25 14:22:25,708 ### opened ###
+++Sent raw: b"\x81\xfe\x00\x91\xc7\x92E\xe4\xbc\xb0 \x92\xa2\xfc1\xc6\xfd\xb2g\x97\xb2\xf06\x87\xb5\xfb'\x81\xe5\xbee\xc6\xa3\xf31\x85\xb4\xf71\xc6\xfd\xb2g\x91\xb4\xcd6\x90\xa8\xf1.\x97\x98\xf76\x97\xa2\xfc1\x8d\xa6\xfeg\xc8\xe7\xb01\x8d\xa4\xf9 \x96\xb4\xb0\x7f\xc4\x9c\xb0\x04\xa5\x97\xdeg\xc8\xe7\xb0\x11\xb7\x8b\xd3g\xb9\xeb\xb2g\x87\xaf\xf3+\x8a\xa2\xfeg\xde\xe7\xb0'\x85\xb5\xe1g\xc8\xe7\xb0#\x96\xa2\xe30\x81\xa9\xf1<\xc6\xfd\xb2g\xd5\xf7\xe1g\xc8\xe7\xb0$\x83\xa0\xe0 \x83\xa6\xe6,\x8b\xa9\xb0\x7f\xc4\xe5\xa3(\xc6\xba"
+2025-10-25 14:22:25,709 ++Sent raw: b"\x81\xfe\x00\x91\xc7\x92E\xe4\xbc\xb0 \x92\xa2\xfc1\xc6\xfd\xb2g\x97\xb2\xf06\x87\xb5\xfb'\x81\xe5\xbee\xc6\xa3\xf31\x85\xb4\xf71\xc6\xfd\xb2g\x91\xb4\xcd6\x90\xa8\xf1.\x97\x98\xf76\x97\xa2\xfc1\x8d\xa6\xfeg\xc8\xe7\xb01\x8d\xa4\xf9 \x96\xb4\xb0\x7f\xc4\x9c\xb0\x04\xa5\x97\xdeg\xc8\xe7\xb0\x11\xb7\x8b\xd3g\xb9\xeb\xb2g\x87\xaf\xf3+\x8a\xa2\xfeg\xde\xe7\xb0'\x85\xb5\xe1g\xc8\xe7\xb0#\x96\xa2\xe30\x81\xa9\xf1<\xc6\xfd\xb2g\xd5\xf7\xe1g\xc8\xe7\xb0$\x83\xa0\xe0 \x83\xa6\xe6,\x8b\xa9\xb0\x7f\xc4\xe5\xa3(\xc6\xba"
+++Sent decoded: fin=1 opcode=1 data=b'{"event": "subscribe", "dataset": "us_stocks_essential", "tickers": ["AAPL", "TSLA"], "channel": "bars", "frequency": "10s", "aggregation": "1m"}'
+2025-10-25 14:22:25,709 ++Sent decoded: fin=1 opcode=1 data=b'{"event": "subscribe", "dataset": "us_stocks_essential", "tickers": ["AAPL", "TSLA"], "channel": "bars", "frequency": "10s", "aggregation": "1m"}'
+++Rcv raw: b'\x81*{"event":"connection","status":"success"}\n'
+2025-10-25 14:22:25,709 ++Rcv raw: b'\x81*{"event":"connection","status":"success"}\n'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event":"connection","status":"success"}\n'
+2025-10-25 14:22:25,709 ++Rcv decoded: fin=1 opcode=1 data=b'{"event":"connection","status":"success"}\n'
+2025-10-25 14:22:25,709 Received data: {'event': 'connection', 'status': 'success'}
+++Rcv raw: b'\x81J{"status":"success","code":"SUCCESS_SUBSCRIPTION","data":["AAPL","TSLA"]}\n'
+2025-10-25 14:22:25,785 ++Rcv raw: b'\x81J{"status":"success","code":"SUCCESS_SUBSCRIPTION","data":["AAPL","TSLA"]}\n'
+++Rcv decoded: fin=1 opcode=1 data=b'{"status":"success","code":"SUCCESS_SUBSCRIPTION","data":["AAPL","TSLA"]}\n'
+2025-10-25 14:22:25,786 ++Rcv decoded: fin=1 opcode=1 data=b'{"status":"success","code":"SUCCESS_SUBSCRIPTION","data":["AAPL","TSLA"]}\n'
+2025-10-25 14:22:25,786 Received data: {'status': 'success', 'code': 'SUCCESS_SUBSCRIPTION', 'data': ['AAPL', 'TSLA']}
+2025-10-25 14:23:25,717 Error: Connection to remote host was lost.
+Connection to remote host was lost. - goodbye
+2025-10-25 14:23:25,718 Connection to remote host was lost. - goodbye
+Connection is opened
